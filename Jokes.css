@@ -1,0 +1,43 @@
+/*Author: Ayush Kapoor
+File Name: Jokes.css
+Date Created: September 29, 2023
+Description: Styling for a joke display webpage interface*/
+body {
+    font-family: 'Arial', sans-serif; 
+    background: linear-gradient(90deg, #c8ffbd, #a3d8e9); 
+}
+
+#jokesContainer {
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid #000000; 
+    border-radius: 15px; 
+    padding: 20px; 
+    background-color: #59e8a3; 
+}
+
+#jokeText {
+    font-family: 'Georgia', serif;
+    font-size: 24px; 
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+#author {
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    text-align: right;
+}
+
+#getJokeButton {
+    font-family: 'Verdana', sans-serif; 
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #034b26;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
